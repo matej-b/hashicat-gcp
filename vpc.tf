@@ -1,9 +1,9 @@
 module "network" {
   source  = "app.terraform.io/matej-training/network/google"
-  version = "3.1.1"
+  version = "~> 2.3"
   network_name = "matej-network"
   project_id = var.project
-  
+
   subnets = [
   {
     subnet_name   = "matej-subnet"
