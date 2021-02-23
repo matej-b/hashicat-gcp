@@ -1,6 +1,6 @@
 module "network" {
   source  = "app.terraform.io/matej-training/network/google"
-  version = "~> 2.3"
+  version = "2.5.0"
   network_name = "matej-network"
   project_id = var.project
 
